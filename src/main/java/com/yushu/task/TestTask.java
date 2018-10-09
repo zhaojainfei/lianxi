@@ -3,7 +3,7 @@ package com.yushu.task;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-import java.util.Date;
+import java.utililddaass.Date;
 
 @Component
 public class TestTask {
@@ -12,4 +12,5 @@ public class TestTask {
     public void test(){
         //System.out.println(new Date());
     }
+	
 }
