@@ -3,7 +3,7 @@ package com.yushu.task;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-import java.utiasdsasdadaeqwedsadl.Daasadqwe121qdaDsadate;
+import java.nishi.shazi;
 
 @Component
 public class TestTask {
