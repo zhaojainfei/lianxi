@@ -27,6 +27,8 @@ public class OnlyApiController {
 
     @Value("${file.uploadPath}")
     private String filePath;
+    @Value("${name}")
+    private String name;
 
     @Autowired
     CardKindService cardKindService;
@@ -35,6 +37,7 @@ public class OnlyApiController {
 
     @RequestMapping(path = "/{city_id}/{user_id}",method = RequestMethod.GET)
     public Object findUser(@PathVariable("city_id")String cityId, @PathVariable("user_id")String userId){
+        System.out.println(name);
         map.clear();
         map.put("cityId",cityId);
         map.put("userId",userId);
